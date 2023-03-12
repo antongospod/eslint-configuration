@@ -1,0 +1,39 @@
+{
+  "name": "@antongospod/eslint-config",
+  "description": "Unified ESLint config",
+  "version": "1.0.0",
+  "keywords": [
+    "eslint-config",
+    "vue",
+    "typescript",
+    "json",
+    "yml",
+    "markdown"
+  ],
+  "license": "MIT",
+  "author": "Anton <https://github.com/antongospod>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antongospod/eslint-configuration.git",
+    "directory": "packages/eslint-config"
+  },
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "files": [
+    "dist"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "stub": "unbuild --stub",
+    "build": "unbuild"
+  },
+  "peerDependencies": {
+    "eslint": "^8.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@antongospod/eslint-plugin": "workspace:*"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "@antongospod/eslint-configuration-monorepo",
+  "private": true,
+  "version": "1.0.0",
+  "packageManager": "pnpm@7.29.1",
+  "license": "MIT",
+  "author": "Anton <https://github.com/antongospod>",
+  "scripts": {
+    "build": "pnpm -r build"
+  },
+  "devDependencies": {
+    "@antongospod/eslint-config": "workspace:*",
+    "@antongospod/eslint-plugin": "workspace:*",
+    "@semantic-release/git": "^10.0.1",
+    "eslint": "^8.36.0",
+    "multi-semantic-release": "^3.0.1",
+    "typescript": "^4.9.5",
+    "unbuild": "^1.1.2"
+  }
+}
