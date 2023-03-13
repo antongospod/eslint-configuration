@@ -22,7 +22,7 @@ importers:
 
   packages/eslint-config:
     specifiers:
-      '@antongospod/eslint-plugin': workspace:*
+      '@antongospod/eslint-plugin': 1.0.0
     dependencies:
       '@antongospod/eslint-plugin': link:../eslint-plugin
 
