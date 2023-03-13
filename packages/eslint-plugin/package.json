@@ -1,7 +1,7 @@
 {
   "name": "@antongospod/eslint-plugin",
   "description": "Unified ESLint Plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "keywords": [
     "eslint-plugin",
     "vue",
