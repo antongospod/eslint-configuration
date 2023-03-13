@@ -16,11 +16,18 @@ Unified ESLint configuration preset
 ## Development
 
 ```bash
-# install pnpm
+# Install pnpm
 npm i -g pnpm
 
-# install deps
+# Install deps
 pnpm i
+```
+
+## Using
+
+```bash
+# Install
+pnpm i @antongospod/eslint-config -D
 
 # Add to your .eslintrc config
 {
