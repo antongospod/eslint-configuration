@@ -1,7 +1,7 @@
 {
   "name": "@antongospod/eslint-config",
   "description": "Unified ESLint config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "keywords": [
     "eslint-config",
     "vue",
@@ -34,6 +34,6 @@
     "access": "public"
   },
   "dependencies": {
-    "@antongospod/eslint-plugin": "1.0.0"
+    "@antongospod/eslint-plugin": "1.0.1"
   }
 }
