@@ -14,7 +14,7 @@ export default defineConfig({
     sourceType: 'module',
   },
   extends: [
-    'plugin:antongospod/core',
+    'plugin:@antongospod/core',
     'plugin:import/recommended',
     'plugin:promise/recommended',
   ],
