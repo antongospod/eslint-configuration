@@ -22,6 +22,11 @@ npm i -g pnpm
 # install deps
 pnpm i
 
+# Add to your .eslintrc config
+{
+  "extends": "@antongospod"
+}
+
 ## License
 
 MIT License © 2023 [Anton](https://github.com/antongospod)
